@@ -138,12 +138,13 @@
 //#define BLUETOOTH
 
 // Choose the name from boards.h that matches your setup
+// Bigtreetech SK Pro 1.2
 #ifndef MOTHERBOARD
   #define MOTHERBOARD BOARD_BTT_SKR_PRO_V1_2
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-//#define CUSTOM_MACHINE_NAME "3D Printer"
+#define CUSTOM_MACHINE_NAME "HyperCube"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -671,7 +672,7 @@
 
 // Enable one of the options below for CoreXY, CoreXZ, or CoreYZ kinematics,
 // either in the usual order or reversed
-//#define COREXY
+#define COREXY
 //#define COREXZ
 //#define COREYZ
 //#define COREYX
